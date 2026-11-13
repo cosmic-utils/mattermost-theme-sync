@@ -5,7 +5,6 @@ edition = "2024"
 license = "GPL-3.0-only"
 description = "Sync the COSMIC desktop theme to Mattermost"
 repository = "https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync"
-homepage = "https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync"
 readme = "README.md"
 keywords = ["cosmic", "mattermost", "theme", "desktop", "sync"]
 categories = ["command-line-utilities"]
