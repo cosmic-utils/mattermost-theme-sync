@@ -308,9 +308,10 @@ pub fn secure_config_path(config: &Config) {
             let _ = fs::set_permissions(dir, fs::Permissions::from_mode(0o700));
             let path = dir.join("servers");
             if path.is_file()
-                && let Err(error) = fs::set_permissions(&path, fs::Permissions::from_mode(0o600)) {
-                    debug!("could not chmod {}: {error}", path.display());
-                }
+                && let Err(error) = fs::set_permissions(&path, fs::Permissions::from_mode(0o600))
+            {
+                debug!("could not chmod {}: {error}", path.display());
+            }
         }
     }
 
