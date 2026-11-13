@@ -473,7 +473,7 @@ fn unit_contents(exe: &std::path::Path) -> String {
     format!(
         "[Unit]\n\
          Description=Sync the COSMIC theme to Mattermost\n\
-         Documentation=https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync\n\
+         Documentation=https://github.com/cosmic-utils/mattermost-theme-sync\n\
          After=graphical-session.target\n\
          PartOf=graphical-session.target\n\
          \n\

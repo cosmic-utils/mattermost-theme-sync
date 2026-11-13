@@ -4,7 +4,7 @@
 # Install cosmicmost from GitHub releases.
 #
 # One-liner:
-#   curl -fsSL https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync/releases/latest/download/install.sh | sh
+#   curl -fsSL https://github.com/cosmic-utils/mattermost-theme-sync/releases/latest/download/install.sh | sh
 #
 # Options (also available as environment variables):
 #   --version <tag>   Install a specific release (default: latest)
@@ -20,7 +20,7 @@
 #
 set -eu
 
-REPO="${COSMICMOST_REPO:-cosmic-utils/cosmic-ext-mattermost-theme-sync}"
+REPO="${COSMICMOST_REPO:-cosmic-utils/mattermost-theme-sync}"
 BIN="cosmicmost"
 VERSION="${COSMICMOST_VERSION:-}"
 DEFAULT_BINDIR="${XDG_BIN_HOME:-$HOME/.local/bin}"

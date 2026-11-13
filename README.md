@@ -9,14 +9,14 @@ I mainly use it with Mattermost Desktop on COSMIC; it pushes a custom theme pref
 From a release:
 
 ```bash
-curl -fsSL https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync/releases/latest/download/install.sh | sh
+curl -fsSL https://github.com/cosmic-utils/mattermost-theme-sync/releases/latest/download/install.sh | sh
 ```
 
 Or from source:
 
 ```bash
-git clone https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync
-cd cosmic-ext-mattermost-theme-sync
+git clone https://github.com/cosmic-utils/mattermost-theme-sync
+cd mattermost-theme-sync
 cargo install --path .
 ```
 

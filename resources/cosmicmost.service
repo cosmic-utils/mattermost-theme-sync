@@ -1,6 +1,6 @@
 [Unit]
 Description=Sync the COSMIC theme to Mattermost
-Documentation=https://github.com/cosmic-utils/cosmic-ext-mattermost-theme-sync
+Documentation=https://github.com/cosmic-utils/mattermost-theme-sync
 After=graphical-session.target
 PartOf=graphical-session.target
 
