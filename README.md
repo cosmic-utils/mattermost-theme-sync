@@ -39,16 +39,6 @@ cosmicmost preview   # print generated theme JSON
 cosmicmost apply
 ```
 
-## Commands
-
-- `cosmicmost init` — add/update a server
-- `cosmicmost apply` — sync now
-- `cosmicmost daemon` — watch COSMIC and resync on changes
-- `cosmicmost install-service` — install+enable the user systemd unit
-- `cosmicmost preview` — show what would be sent
-- `cosmicmost reset` — remove theme prefs from the account
-- `cosmicmost status` / `cosmicmost paths` — state and config locations
-
 ## Notes
 
 - Mattermost Desktop v6+ has a separate setting to make the app chrome follow the server theme: *Settings → Advanced → Synchronize Desktop App theme with server*.
